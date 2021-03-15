@@ -1,0 +1,158 @@
+* 2021, All rights reserved.
+ *******************************************************************************/
+
+import java.util.HashSet;
+// Start of user code (user defined imports)
+
+// End of user code
+
+/**
+ * Description of Zapatos.
+ * 
+ * @author Admin
+ */
+public class Zapatos {
+	/**
+	 * Description of the property Clave.
+	 */
+	private HashSet<int>Clave=new HashSet<int>();
+
+	/**
+	 * Description of the property Material.
+	 */
+	private HashSet<String> Material = new HashSet<String>();
+
+	/**
+	 * Description of the property Troquel.
+	 */
+	private HashSet<String> Troquel = new HashSet<String>();
+
+	/**
+	 * Description of the property CantProdxDia.
+	 */
+	private HashSet<int>CantProdxDia=new HashSet<int>();
+
+	/**
+	 * Description of the property Colores.
+	 */
+	private HashSet<String> Colores = new HashSet<String>();
+
+	// Start of user code (user defined attributes for Zapatos)
+
+	// End of user code
+
+	/**
+	 * The constructor.
+	 */
+	public Zapatos() {
+		// Start of user code constructor for Zapatos)
+		super();
+		// End of user code
+	}
+	
+	//Recibe costo por unidad:
+	
+	public boolean updateCostoXunidad(int i float valor){
+		//start of user code for method update CostoXunidad
+		boolean CostoXunidad=false;
+		if(i>=0 && this.updateCostoXunidad.size()){
+			int c=0;
+			for(Costo p:this.updateCostoXunidad) {
+				if(c==i) {
+					
+				p.setValor(valor);
+				updateCostoXunidad=true;
+				break;
+				}
+				
+				c++;
+			}
+		}
+		
+		return updateCostoXlote;
+	}
+
+	/**
+	 * Description of the method CostoxLote: float  (CostoXunidad).
+	 */
+	
+	//Devuelve Costo por lote:
+	
+	CostoXlote=CostoXlote-CostoXunidad;
+			if(CostoXlote=="si"){
+				this.CostoXlote=true;
+				
+			}else {
+				
+				this.CostoXlote=false;
+			}
+	{
+		// Start of user code for method CostoxLote: float  (CostoXunidad)
+		// End of user code
+	}
+
+	// Start of user code (user defined methods for Zapatos)
+
+	// End of user code
+	/**
+	 * Returns Clave.
+	 * @return Clave 
+	 */
+	public HashSet<int> getClave() {
+		return this.Clave;
+	}
+
+	/**
+	 * Returns Material.
+	 * @return Material 
+	 */
+	public HashSet<String> getMaterial() {
+		return this.Material;
+	}
+
+	/**
+	 * Returns Troquel.
+	 * @return Troquel 
+	 */
+	public HashSet<String> getTroquel() {
+		return this.Troquel;
+	}
+
+	/**
+	 * Returns CantProdxDia.
+	 * @return CantProdxDia 
+	 */
+	public HashSet<int> getCantProdxDia() {
+		return this.CantProdxDia;
+	}
+
+	/**
+	 * Returns Colores.
+	 * @return Colores 
+	 */
+	public HashSet<String> getColores() {
+		return this.Colores;
+		
+		/**public void CostoxLote:float(CostoXunidad)()
+		float (CostoXunidad) System.out.println("Recibo el Costo por Unidad");
+		
+		int Zapatos*(CostoXunidad)=(CostoXlote);
+		
+		//Realiza la operacion 
+		
+		public void float (CostoXlote)()
+		float (CostoXlote) System.out.println("El costo por lote es: ");
+		
+		return (CostoXlote)
+		
+		*//
+		
+				
+	     public String to String() {
+			return "Zapatos"
+					[Clave="+Clave+",Material="+Material+",Troquel="+Troquel+",CantProdxDia="+CantProdxDia+",Colores="+Colores;
+		
+		}
+	}
+
+}
